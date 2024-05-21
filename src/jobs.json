@@ -89,6 +89,20 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "+278-595-5500"
       }
+    },
+    {
+      "id": "d3e9",
+      "title": "Web Dev",
+      "type": "Full-Time",
+      "location": "Noordwyk, JHB",
+      "description": "This a test job.",
+      "salary": "Under R50K",
+      "company": {
+        "name": "LPS Web Solutions Inc.",
+        "description": "Wed design and development",
+        "contactEmail": "test@gmail.com",
+        "contactPhone": "0658164596"
+      }
     }
   ]
 }

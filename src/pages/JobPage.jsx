@@ -1,11 +1,22 @@
-import { useParams, useLoaderData } from 'react-router-dom';
+import { useParams, useLoaderData, useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { FaArrowLeft, FaEdit, FaTrash, FaMapMarker } from 'react-icons/fa';
 import { MdEmail, MdPhone } from 'react-icons/md';
 
-const JobPage = () => {
+const JobPage = ({ deleteJob }) => {
   const { id } = useParams();
   const job = useLoaderData();
+  const navigate = useNavigate();
+
+  const onDeleteClick = (jobId) => {
+    const confirm = window.confirm('Are sure you want to delete this job?');
+
+    if (!confirm) return;
+
+    deleteJob(jobId);
+
+    navigate('/jobs');
+  };
 
   return (
     <>
@@ -57,7 +68,7 @@ const JobPage = () => {
 
                 <h2 className='text-2xl'>{job.company.name}</h2>
 
-                <p className='my-2'>{job.company.decription}</p>
+                <p className='my-2'>{job.company.description}</p>
 
                 <hr className='my-4' />
 
@@ -84,7 +95,10 @@ const JobPage = () => {
                   <FaEdit className='inline mr-5' /> Edit Job
                 </Link>
 
-                <button className='bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block'>
+                <button
+                  onClick={() => onDeleteClick(job.id)}
+                  className='bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block'
+                >
                   <FaTrash className='inline mr-5' /> Delete Job
                 </button>
               </div>
