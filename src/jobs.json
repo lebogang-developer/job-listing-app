@@ -17,10 +17,9 @@
     },
     {
       "id": "2",
-      "title": "Front-End Engineer (React & Redux)",
+      "title": "Front-End Engineer",
       "type": "Full-Time",
       "location": "Gauteng, PTA",
-      "experience": "1 - 2 years",
       "description": "Join our team as a Front-End Developer in sunny Gauteng, PTA. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
       "salary": "R25 000 - 30 000",
       "company": {
@@ -62,14 +61,13 @@
     },
     {
       "id": "5",
-      "title": "Full Stack React Developer",
+      "title": "Full Stack Web Developer (React/Node)",
       "type": "Full-Time",
-      "description": "Exciting opportunity for a Full-Time Ful Stack React Developer in Johannesburg North, Gauteng. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
       "location": "Gauteng, JHB North",
-      "experience": "5+ years",
+      "description": "Exciting opportunity for a Full-Time Ful Stack React Developer in Johannesburg North, Gauteng. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
       "salary": "R45 000 - 55 000",
       "company": {
-        "name": "Jozi Technologies",
+        "name": "Jozi Technologies Inc.",
         "description": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
         "contactEmail": "contact@consecteturadipisicing.com",
         "contactPhone": "+277-550-5511"
@@ -88,20 +86,6 @@
         "description": "Port Solutions is a leading technology company specializing in software development and digital marketing. We are committed to providing our clients with cutting-edge solutions and our employees with a supportive and rewarding work environment.",
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "+278-595-5500"
-      }
-    },
-    {
-      "id": "d3e9",
-      "title": "Web Dev",
-      "type": "Full-Time",
-      "location": "Noordwyk, JHB",
-      "description": "This a test job.",
-      "salary": "Under R50K",
-      "company": {
-        "name": "LPS Web Solutions Inc.",
-        "description": "Wed design and development",
-        "contactEmail": "test@gmail.com",
-        "contactPhone": "0658164596"
       }
     }
   ]
